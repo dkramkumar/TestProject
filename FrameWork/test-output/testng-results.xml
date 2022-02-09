@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User clicks on Elements<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Text Box<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Header message is : Text Box<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User enters Full Name<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User enters Email Id<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User enters current address<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User enters permanent address<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on submit button<br/>]]>
+    </line>
+    <line>
+      <![CDATA[OutPut Message is : Name:Ramkumar
+Email:ramkumardkr@gmail.com
+Current Address :DNO: 7-17-345/1
+Permananet Address :Mallikarjuna peta 4/1 Lane<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Elements<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Check Box<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Header text is : Check Box<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Home to expand<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Desktop to expand<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Commands Check Box<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Documents to expand<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Office to expand<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on General Check Box<br/>]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Excel File<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Selected text is : commands<br/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-09T20:19:56 IST" name="Demo QA" finished-at="2022-02-09T20:21:17 IST" duration-ms="81337">
+    <groups>
+      <group name="Sanity">
+        <method signature="ElementsTest.elementsTextBox()[pri:1, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" name="elementsTextBox" class="com.demoQA.TestCases.ElementsTest"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="ElementsTest.elementsCheckBox()[pri:2, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" name="elementsCheckBox" class="com.demoQA.TestCases.ElementsTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-02-09T20:19:56 IST" name="Test" finished-at="2022-02-09T20:21:17 IST" duration-ms="81337">
+      <class name="com.demoQA.TestCases.ElementsTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:19:55 IST" name="beforeSuite" finished-at="2022-02-09T20:19:56 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="url(java.lang.String)[pri:0, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:19:56 IST" name="url" finished-at="2022-02-09T20:20:22 IST" duration-ms="26232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="elementsTextBox()[pri:1, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:20:22 IST" name="elementsTextBox" description="Elements TextBox" finished-at="2022-02-09T20:20:36 IST" duration-ms="13753" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicks on Elements<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Text Box<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Header message is : Text Box<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User enters Full Name<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User enters Email Id<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User enters current address<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User enters permanent address<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on submit button<br/>]]>
+            </line>
+            <line>
+              <![CDATA[OutPut Message is : Name:Ramkumar
+Email:ramkumardkr@gmail.com
+Current Address :DNO: 7-17-345/1
+Permananet Address :Mallikarjuna peta 4/1 Lane<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- elementsTextBox -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:20:36 IST" name="quit" finished-at="2022-02-09T20:20:36 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="url(java.lang.String)[pri:0, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:20:36 IST" name="url" finished-at="2022-02-09T20:21:01 IST" duration-ms="25077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="elementsCheckBox()[pri:2, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:21:01 IST" name="elementsCheckBox" description="Elements CheckBox" finished-at="2022-02-09T20:21:17 IST" duration-ms="15494" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicks on Elements<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Check Box<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Header text is : Check Box<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Home to expand<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Desktop to expand<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Commands Check Box<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Documents to expand<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Office to expand<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on General Check Box<br/>]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Excel File<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Selected text is : commands<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- elementsCheckBox -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:21:17 IST" name="quit" finished-at="2022-02-09T20:21:17 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demoQA.TestCases.ElementsTest@3e11f9e9]" started-at="2022-02-09T20:21:17 IST" name="afterSuite" finished-at="2022-02-09T20:21:17 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.demoQA.TestCases.ElementsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Demo QA -->
+</testng-results>
