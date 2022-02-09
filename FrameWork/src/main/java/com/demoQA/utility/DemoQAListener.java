@@ -29,7 +29,7 @@ public class DemoQAListener extends BasePage implements ITestListener {
     }
     @Override
     public synchronized void onTestStart(ITestResult result) {
-        System.out.println("--------- Executing :- " + getSimpleMethodName(result) + " ---------");
+        System.out.println("******** Executing :- " + getSimpleMethodName(result) + " **********");
         ExtentTestManager.createTest(result.getName(),result.getMethod().getDescription());
         ExtentTestManager.setCategoryName(getSimpleClassName(result));
     }
